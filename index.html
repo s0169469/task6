@@ -9,11 +9,11 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-        <script src="script.js"></script>
+        
     </head>
     <body>
         <header>
-            <h1 сlass="text-right">Одежда</h1>
+            <h1 сlass="text-right">Интернет-магазин одежды</h1>
         </header>
         <div class="container-fluid">
             <h2>Корзина</h2>
@@ -23,17 +23,17 @@
                         Добавить в корзину
                     </div>
                     <div class="col-5 col-lg-3">
-                       количество
+                       Количество
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-5 col-lg-3">
                         <select name="type">
-                            <option value="1">юбка</option>
-                            <option value="2">брюки</option>
-                            <option value="3">платье</option>
-                            <option value="4">кроссовки</option>
-                            <option value="5">сарафан</option>
+                            <option value="1">Пакет </option>
+                            <option value="2">Классические брюки</option>
+                            <option value="3">Вечернее платье</option>
+                            <option value="4">Кросовки Reebok</option>
+                            <option value="5">Юбка женская</option>
                         </select>
                     </div>
                     <div class="col-7 col-lg-4">
@@ -44,23 +44,23 @@
                     <div class="row">
                         <div id="radios">
                             <div class="col-12 pl-4">
-                                <label><input type="radio" name="options" value="1">женские</label>
+                                <label><input type="radio" name="options" value="1">Женские</label>
                             </div>
                             <div class="col-12 pl-4">
-                                <label><input type="radio" name="options" value="2">мужские</label>
+                                <label><input type="radio" name="options" value="2">Мужские</label>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div id="checkboxes">
                             <div class="col-12 pl-4">
-                                <label><input type="checkbox" name="1">миди</label>
+                                <label><input type="checkbox" name="1">Разрез сбоку</label>
                             </div>
                             <div class="col-12 pl-4">
-                                <label><input type="checkbox" name="2">мини</label>
+                                <label><input type="checkbox" name="2">Ассиметричный крой</label>
                             </div>
                             <div class="col-12 pl-4">
-                                <label><input type="checkbox" name="3">макси</label>
+                                <label><input type="checkbox" name="3">Строгий стиль</label>
                             </div>
                         </div>
                     </div>
@@ -68,5 +68,6 @@
             </form>
             <div id="price"></div>
         </div>
+        <script src="script.js" defer></script>
     </body>
 </html>
