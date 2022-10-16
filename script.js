@@ -3,14 +3,14 @@ function updatePrice() {
     let select = s[0];
     let price = 0;
     let prices = {
-        types: [120, 150, 330, 180, 160],
+        types: [5, 2500, 4300, 4800, 2700],
         options: {
-            2: 100,
+            2: -600,
         },
         checkboxes: {
-            1: 10,
-            2: 50,
-            3: 80,
+            1: 1000,
+            2: -500,
+            3: 800,
         }
     };
     price = prices.types[select.value - 1];
